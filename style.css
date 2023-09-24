@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+}
+
+#bookmarkButton {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#bookmarkButton:hover {
+    background-color: white;
+}
